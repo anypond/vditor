@@ -1,5 +1,5 @@
 {
-    "name": "vditor",
+    "name": "@anypond/vditor",
     "version": "3.11.1",
     "description": "♏ 易于使用的 Markdown 编辑器，为适配不同的应用场景而生",
     "author": "Vanessa <v@b3log.org> (http://vanessa.b3log.org)",
@@ -59,9 +59,9 @@
         "webpack-dev-server": "^5.1.0"
     },
     "license": "MIT",
-    "repository": "git://github.com/Vanessa219/vditor.git",
+    "repository": "git@github.com:anypond/vditor.git",
     "bugs": {
-        "url": "https://github.com/Vanessa219/vditor/issues"
+        "url": "https://github.com/anypond/vditor/issues"
     },
     "scripts": {
         "lint": "eslint eslint.config.mjs",
