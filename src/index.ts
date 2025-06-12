@@ -367,6 +367,9 @@ class Vditor extends VditorMethod {
 
     /** 销毁编辑器 */
     public destroy() {
+        if (!this.vditor) {
+            return;
+        }
         this.vditor.element.innerHTML = this.vditor.originalInnerHTML;
         this.vditor.element.classList.remove("vditor");
         this.vditor.element.removeAttribute("style");
